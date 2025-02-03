@@ -1,0 +1,15 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Auto-save HTML",
+            "type": "shell",
+            "command": "cp ${file} ${fileDirname}/${fileBasenameNoExtension}.html",
+            "problemMatcher": [],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        }
+    ]
+}
